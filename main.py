@@ -16,7 +16,7 @@ count = 0
 pos_reached = b'Position Reached: '
 round = 0
 
-while count < 1000:
+while count < 10000:
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
