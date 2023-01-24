@@ -63,7 +63,7 @@ while count < 10000:
     except socket.error as socketerror:
         print(count)
 
-print("HI")
+
 c.close()
 s.close()
 
